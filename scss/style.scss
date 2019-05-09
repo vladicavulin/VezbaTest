@@ -6,6 +6,7 @@
 main, footer {
     padding: 2em 15em;
 }
+html {scroll-behavior: smooth;}
 
 .logo {
     font-size:2em;
@@ -61,4 +62,37 @@ h1 {
     width:60%;
     margin:25% auto 0;
 }
+}
+
+section {
+    padding: 5em 10em;
+    @include clearfix;
+
+    h2 {
+        text-align:center;
+        text-transform: uppercase;
+        margin-bottom: 3em;
+    }
+}
+
+.buttons {
+    display:inline-block;
+    padding:1em 3em;
+    background-color:$main_red;
+    color:white;
+    margin:1em;
+    text-transform:uppercase;
+    text-decoration:none;
+    &:hover {background-color:$red_dark;}
+}
+
+#catalog {
+    background-color: $grey_background;
+}
+
+.column {
+    float:left;
+    width:25%;
+    text-align: center;
+    img{width:90%}
 }
