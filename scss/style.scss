@@ -120,4 +120,18 @@ section {
           }   
         }
         }
+        
+        footer{
+            background:black;
+            @include clearfix;
+
+            .logo {
+                clear:both;
+                border-bottom:1px solid $main_red;
+            }
+
+            address, .map {margin:1em;}
+            address {float:left;}
+            .map{float:right;}
+        }
     
