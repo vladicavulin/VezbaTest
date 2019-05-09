@@ -156,3 +156,41 @@ footer {
     text-align:center;
     address, .map {float:none;}
 }
+
+@media screen and (max-width:900px) {
+
+    main {
+        background-image:none;
+        background-color:black;
+        height:auto;
+    
+    header{
+    nav {
+        width:100%;
+        text-align:center;
+
+        ul{
+            li{
+                display:block;}}
+            }
+        }
+        h1 {margin-top: 1em;}
+    }
+
+    #catalog{
+        .column {width:100%;}
+    }
+
+    #pricing {
+        table {display:none;}
+        .buttons {display:inline-block;}
+
+    }
+
+    footer {
+        padding:2em;
+    }
+    
+}
+
+
